@@ -1,6 +1,6 @@
 import sensor, image, time
 from pyb import UART
-
+##初始化
 sensor.reset()
 sensor.set_pixformat(sensor.RGB565)
 sensor.set_framesize(sensor.QQVGA)
